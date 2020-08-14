@@ -5,7 +5,7 @@ while True:
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
         
-        elif choice == '4':
+        if choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
         break
     else:
